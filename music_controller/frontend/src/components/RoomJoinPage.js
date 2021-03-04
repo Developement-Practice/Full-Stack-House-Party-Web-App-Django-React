@@ -7,7 +7,7 @@ export default class RoomJoinPage extends Component {
     super(props);
     this.state = {
       roomCode: "",
-      error: "Default Text",
+      error: "Please enter a valid room code",
     };
     this.handleTextFieldChange = this.handleTextFieldChange.bind(this);
     this.roomButtonPressed = this.roomButtonPressed.bind(this);
